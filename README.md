@@ -8,7 +8,7 @@ Import any free tab by URL. Tabs are stored locally with a PDF copy, displayed w
 
 ## Installing (end users)
 
-1. Download the latest installer from the `releases/` folder: `Guitar Tab Reader Setup x.x.x.exe`
+1. Go to the [Releases page](../../releases) and download `Guitar Tab Reader Setup x.x.x.exe` from the latest release
 2. Run the installer — it will add the app to your Start Menu and desktop
 3. Launch **Guitar Tab Reader**
 

@@ -1,6 +1,8 @@
 {
   "name": "guitar-tab-reader-windows",
   "version": "1.0.0",
+  "description": "A Windows desktop app for saving and reading guitar tabs from Ultimate Guitar.",
+  "author": "Nicole Cripps",
   "private": true,
   "main": "out/main/index.js",
   "scripts": {
@@ -38,6 +40,7 @@
   "build": {
     "appId": "com.guitartabreader.app",
     "productName": "Guitar Tab Reader",
+    "electronVersion": "30.5.1",
     "directories": {
       "output": "../releases"
     },
