@@ -1,0 +1,12 @@
+node_modules/
+dist/
+out/
+releases/
+/data/
+*.db
+*.tsbuildinfo
+.env
+
+# Claude Code local/session state
+**/.claude/settings.local.json
+**/.claude/scheduled_tasks.lock

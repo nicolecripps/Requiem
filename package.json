@@ -1,0 +1,13 @@
+{
+  "name": "guitar-tab-reader",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "windows"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=windows",
+    "build": "npm run build --workspace=windows"
+  }
+}

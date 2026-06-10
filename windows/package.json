@@ -1,0 +1,51 @@
+{
+  "name": "guitar-tab-reader-windows",
+  "version": "1.0.0",
+  "private": true,
+  "main": "out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@guitar-tab-reader/shared": "*",
+    "better-sqlite3": "^9.4.3",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@electron-toolkit/eslint-config-ts": "^2.0.0",
+    "@electron-toolkit/preload": "^3.0.0",
+    "@electron-toolkit/utils": "^3.0.0",
+    "@types/better-sqlite3": "^7.6.10",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "electron": "^30.0.6",
+    "electron-builder": "^24.13.3",
+    "electron-vite": "^2.2.0",
+    "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  },
+  "build": {
+    "appId": "com.guitartabreader.app",
+    "productName": "Guitar Tab Reader",
+    "directories": {
+      "output": "../releases"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "files": [
+      "out/**/*"
+    ]
+  }
+}
